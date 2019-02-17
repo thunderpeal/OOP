@@ -14,7 +14,7 @@ void div(float a, float b) {
 
 void multi(float a, float b) { cout << "Произведение этих чисел равно " << a * b << endl; }
 
-int main()
+int main(int argc, char const *argv[])
 {
 	setlocale(LC_ALL, "Russian");
 	float a, b;
