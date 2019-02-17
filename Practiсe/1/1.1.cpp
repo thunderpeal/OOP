@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
 	cout << "Enter your name, please: ";
 	string name = "";
