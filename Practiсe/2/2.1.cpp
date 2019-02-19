@@ -1,5 +1,5 @@
 //#include "pch.h"
-#include "math.h"
+#include <cmath>
 #include <iostream>
 using namespace std;
 
@@ -25,7 +25,8 @@ int main(int argc, char const *argv[])
 	else {
 		m = pow(b, 3.0) + n * a*a;
 	}
-	cout << "m = " << m << endl;
+	cout << "a = " << a << endl << "b = " << b << endl;
+	cout << "n = " << n << endl << "m = " << m << endl;
 	system("pause");
 	return 0;
 }
