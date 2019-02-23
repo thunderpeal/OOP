@@ -11,7 +11,7 @@ struct Automobile {
 	int max_speed_kmh;
 };
 
-int main()
+int main(int argc, char const *argv[])
 {
 	Automobile auto1 = { "LADA", "Kalina", "Gas", 2017, 200 };
 	Automobile auto2 = { "Tesla", "Model X", "Electro", 2019, 300 };
