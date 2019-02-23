@@ -18,7 +18,7 @@ double length(vector *s) {
 	return sqrt(dx * dx - dy * dy);
 }
 
-int main()
+int main(int argc, char const *argv[])
 {
 	vector vector1 = { {2.0,1.49},{9.4,0.1 } };
 	cout << "Vector1 length = "<< length(&vector1) << endl;
