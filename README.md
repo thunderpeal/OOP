@@ -1,2 +1,2 @@
 # OOP
-Для работы использую Visual Studio 2017 под Windows.
+Код пишется на Visual Studio 2017 под Windows.
