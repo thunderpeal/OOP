@@ -1,2 +1,2 @@
-# OOP
+# ООП
 Код пишется на Visual Studio 2017 под Windows.
