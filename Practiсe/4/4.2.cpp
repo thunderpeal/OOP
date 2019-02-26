@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+#include "pch.h"
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -12,7 +12,7 @@ int * change(int * a, int length) {                 //функция меняе�
 	return a;
 }
 
-void print_a(int *a) {                 //просто функция для вывода массива на экран
+void print_a(int *a) {                //просто функция для вывода массива на экран
 	for (int i = 0; i < 12; i++) {
 		cout << a[i] << " ";
 	}
