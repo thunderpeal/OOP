@@ -1,20 +1,20 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 int main()
-{	
-	setlocale(LC_ALL, "Russian");
+{
+	char complex = 'i';
 	float a = 3.5;
 	float x = -0.7;
 	float y, t = 0;
-	
+
 	if (a <= x) {
 		y = a + log(x + a);
 	}
-	else{
-		y = sqrt(sin(a*x));
+	else {
+		y = sqrt(abs(sin(a*x)));
 	}
 
 	if (a > y) {
@@ -26,13 +26,10 @@ int main()
 	else {
 		t = tan(a*x) + cos(2 * a*y);
 	}
-	if (isnan(y) || isnan(t)) {
-		cout << "Нет решений в действительных числах" << endl;
-	}
-	else {
-		cout << "a = " << a << endl << "x = " << x << endl;
-		cout << "y = " << y << endl << "t = " << t << endl;
-	}
+
+	cout << complex<<" = sqrt(-1)"<<endl;
+	cout << "a = " << a << endl << "x = " << x << endl;
+	cout << "y = " << y << complex << endl << "t = " << t << complex << endl;
 	
 	system("pause");
 	return 0;
