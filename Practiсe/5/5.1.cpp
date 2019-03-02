@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+#include "pch.h"
 #include <iostream>
 using namespace std;
 
@@ -15,7 +15,7 @@ void buble(int *a, int size) {  //пузырек для целых чисел
 	}
 }
 
-void buble(double *a, double size){ //пузырек для дробных значений
+void buble(double *a, int size){ //пузырек для дробных значений
 	while (true) {
 		bool completed = true;
 		for (int i = 0; i < size - 1; i++) {
