@@ -36,7 +36,7 @@ void selection(double*a, int size) {
 	}
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 	int a [10] = { 1, 10, 2, 8, 4, 7, 6, 3, 9, 5 };
 	double b[10] = { 8, 7.03, 1.24, 5.68, 7, 6, 9.11, 0.99, 10, 2};
