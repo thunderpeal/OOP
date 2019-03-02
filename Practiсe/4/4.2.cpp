@@ -19,7 +19,7 @@ void print_a(int *a) {                //просто функция для вы�
 	cout << endl;
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 	srand(time(0));
 	int *a = new int[12];
