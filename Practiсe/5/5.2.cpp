@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+#include "pch.h"
 #include <iostream>
 using namespace std;
  
@@ -19,7 +19,7 @@ void selection(int*a, int size) { //функция выборной сортир
 	}
 }
 
-void selection(double*a, double size) {
+void selection(double*a, int size) {
 	int low = 0;      
 	int ind_min = 0; 
 	while (true) {
