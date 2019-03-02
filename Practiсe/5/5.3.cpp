@@ -32,7 +32,7 @@ void insert(double *a, int size) {
 	}
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 	int a[10] = { 4, 2, 8, 1, 6, -1, 32, -7, 0, 9 };
 	double b[10] = { 2.7, -1.4, 16, 0, 3.14, -18, 19, 44, -4.52, 52 };
