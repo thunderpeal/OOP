@@ -28,7 +28,7 @@ void buble(double *a, int size){ //пузырек для дробных знач
 	}
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 	int a_int[10] = { 8, 2, 4, 5, 10, 1, 3, 7, 6, 9};
 	double a_double[10] = { 10, 4.0, 5.4 , 1.8, 2.7, 9, 8, 3, 5.343, 7.5 };
