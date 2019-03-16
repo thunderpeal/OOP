@@ -6,13 +6,13 @@ using namespace std;
 class Figure {
 	protected:
 		int diag_1;
-		int	diag_2;
+		int diag_2;
 		int angle;
 	public:
 		virtual double find_s() = 0;
 };
 
-class Quadrilateral : Figure {
+class Quadrilateral : public Figure {
 	public:
 		Quadrilateral(int d1, int d2, int a) {
 			diag_1 = d1;
@@ -24,7 +24,7 @@ class Quadrilateral : Figure {
 		}
 };
 
-class Rhomb : Figure {
+class Rhomb : public Figure {
 	public:
 		Rhomb(int d1, int d2) {
 			diag_1 = d1;
@@ -35,7 +35,7 @@ class Rhomb : Figure {
 		}
 };
 
-class Rectangle : Figure {
+class Rectangle : public Figure {
 	public:
 		Rectangle(int d, int a) {
 			diag_1, diag_2 = d;
