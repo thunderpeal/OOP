@@ -1,4 +1,5 @@
 #include "pch.h"
+
 #include "Complex.h"
 
 Complex summ(Complex a, Complex b) {
@@ -36,11 +37,11 @@ double abs_value(Complex a) {
 }
 
 void user() {
-	cout << "Ââåäèòå  " << endl;
-	cout << "	1 äëÿ ñëîæåíèÿ;" << endl;
-	cout << "	2 äëÿ âû÷èòàíèÿ;" << endl;
-	cout << "	3 äëÿ ïåðåìíîæåíèÿ;" << endl;
-	cout << "	4 äëÿ äåëåíèÿ;" << endl;
-	cout << "	5 äëÿ âûõîäà èç ïðîãðàììû;" << endl << endl;
-	cout << "Âàøå ðåøåíèå?  ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ  " << endl;
+	cout << "	1 Ð´Ð»Ñ ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ñ;" << endl;
+	cout << "	2 Ð´Ð»Ñ Ð²Ñ‹Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸Ñ;" << endl;
+	cout << "	3 Ð´Ð»Ñ Ð¿ÐµÑ€ÐµÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ;" << endl;
+	cout << "	4 Ð´Ð»Ñ Ð´ÐµÐ»ÐµÐ½Ð¸Ñ;" << endl;
+	cout << "	5 Ð´Ð»Ñ Ð²Ñ‹Ñ…Ð¾Ð´Ð° Ð¸Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹;" << endl << endl;
+	cout << "Ð’Ð°ÑˆÐµ Ñ€ÐµÑˆÐµÐ½Ð¸Ðµ?  ";
 }
