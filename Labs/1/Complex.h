@@ -1,7 +1,8 @@
 #include "pch.h"
+
 #ifndef COMPLEX_H
 #define COMPLEX_H
-#include "pch.h"
+
 #include <iostream>
 #include <windows.h> 
 #include <cmath>
@@ -13,11 +14,11 @@ class Complex {
 		double Imz;
 };
 
-Complex summ(Complex a, Complex b); //сложение комплексных чисел
-Complex diff(Complex a, Complex b); //вычитание комплексных чисел
-Complex multy(Complex a, Complex b);//умножение комплексных чисел
-Complex divis(Complex a, Complex b); //деление комплексных чисел
-double abs_value(Complex a);	   //нахождение модуля комплексного числа
-void user();						//интерфейс взаимодействия с пользователем
+Complex summ(Complex a, Complex b); //СЃР»РѕР¶РµРЅРёРµ РєРѕРјРїР»РµРєСЃРЅС‹С… С‡РёСЃРµР»
+Complex diff(Complex a, Complex b); //РІС‹С‡РёС‚Р°РЅРёРµ РєРѕРјРїР»РµРєСЃРЅС‹С… С‡РёСЃРµР»
+Complex multy(Complex a, Complex b); //СѓРјРЅРѕР¶РµРЅРёРµ РєРѕРјРїР»РµРєСЃРЅС‹С… С‡РёСЃРµР»
+Complex divis(Complex a, Complex b); //РґРµР»РµРЅРёРµ РєРѕРјРїР»РµРєСЃРЅС‹С… С‡РёСЃРµР»
+double abs_value(Complex a);	   //РЅР°С…РѕР¶РґРµРЅРёРµ РјРѕРґСѓР»СЏ РєРѕРјРїР»РµРєСЃРЅРѕРіРѕ С‡РёСЃР»Р°
+void user();			 //РёРЅС‚РµСЂС„РµР№СЃ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
 
 #endif
