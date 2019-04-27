@@ -18,7 +18,7 @@ public:
 class Bird : public Alive {
 public:
 	bool can_fly;
-	Bird(string h, string m, bool c_f) : Alive(habitat, main_limb_type) {
+	Bird(string h, string m, bool c_f) : Alive(string h, string m,) {
 		can_fly = c_f;
 	}
 
@@ -31,7 +31,7 @@ public:
 class Fish : public Alive {	
 public:
 	bool can_breath;
-	Fish(string h, string m, bool c_b) : Alive(habitat, main_limb_type) {
+	Fish(string h, string m, bool c_b) : Alive(string h, string m,) {
 		can_breath = c_b;
 	}
 
@@ -43,7 +43,7 @@ public:
 class Animal : public Alive {
 public:
 	bool is_predator;
-	Animal(string h, string m, bool i_p) : Alive(habitat, main_limb_type) {
+	Animal(string h, string m, bool i_p) : Alive(string h, string m,) {
 		is_predator = i_p;
 	}
 	void sound() {
