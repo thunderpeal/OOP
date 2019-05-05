@@ -54,6 +54,6 @@ public:
 	void display() {
 		cout << "Действительная часть = " << re << endl;
 		cout << "Мнимая часть = " << img << endl;
-		cout << "Модуль к. ч. = " << this->get_abs() << endl << endl; //ссылка на данный объект
+		cout << "Модуль к. ч. = " << this->module() << endl << endl; //ссылка на данный объект
 	}
 };
