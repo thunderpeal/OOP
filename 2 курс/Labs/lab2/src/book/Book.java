@@ -1,4 +1,4 @@
-package com.company;
+package book;
 
 public class Book {
     private String name;
@@ -46,3 +46,4 @@ public class Book {
         System.out.println(author+"-"+name+ " ("+ publication_year+") rate: "+rate);
     }
 }
+

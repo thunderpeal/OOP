@@ -1,4 +1,4 @@
-package com.company;
+package book;
 
 public class BookTest {
     public static void main(String[] args) {
@@ -11,3 +11,4 @@ public class BookTest {
         book2.print();
     }
 }
+
