@@ -1,4 +1,4 @@
-package com.company;
+package prac2;
 
 public class Author {
     private String name;
@@ -25,8 +25,6 @@ public class Author {
         this.email = email;
     }
     public String ToString(){
-        return name+"("+gender+")"+"at"+email;
+        return name+"("+gender+")"+" at "+email;
     }
-
-
 }
