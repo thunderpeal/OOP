@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-class LabExample extends JFrame
+class Main extends JFrame
 {
     public int milan = 0;
     public int r_m = 0;
@@ -12,7 +12,7 @@ class LabExample extends JFrame
     JLabel jlabel2 = new JLabel("Last scorer: N/A");
     JLabel jlabel3 = new JLabel("Winner: DRAW");
     Font fnt = new Font("Times new roman",Font.BOLD,20);
-    public LabExample()
+    public Main()
     {
         super("Example");
         setLayout(new FlowLayout());
@@ -66,6 +66,6 @@ class LabExample extends JFrame
 
     public static void main(String[]args)
     {
-        new LabExample().setVisible(true);
+        new Main().setVisible(true);
     }
 }

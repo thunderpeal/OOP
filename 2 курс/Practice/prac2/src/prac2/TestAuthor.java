@@ -1,6 +1,6 @@
 package prac2;
 
-public class Main {
+public class TestAuthor {
     public static void main(String[] args) {
         Author a1 = new Author(
                 "Jacob", "jacob@gmail.com", 'm');
