@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        try(FileWriter writer = new FileWriter("C:\\Users\\peals\\IdeaProjects\\lab8\\src\\lab8\\1.txt", false);){
+        try(FileWriter writer = new FileWriter("C:\\Users\\peals\\OneDrive\\Рабочий стол\\OOP\\2 курс\\Labs\\lab8\\src\\lab8\\test.txt", false);){
             System.out.println("Введите строку текста: ");
             Scanner in = new Scanner(System.in);
             String s = in.nextLine();

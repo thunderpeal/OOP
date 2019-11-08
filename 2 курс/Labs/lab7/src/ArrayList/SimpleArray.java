@@ -9,12 +9,18 @@ public class SimpleArray<E> implements Simple<E>{
         strings.add("люблю");
         strings.add("С++");
 
+        for (String s : strings){
+            System.out.print(s);
+            System.out.print(" ");
+        }
+        System.out.println();
         strings.update(2, "Java");
 
         for (String s : strings){
-            System.out.println(s);
+            System.out.print(s);
+            System.out.print(" ");
         }
-
+        System.out.println();
         System.out.println(strings.size());
 
     }

@@ -41,7 +41,7 @@ class Animation extends Frame
     }
     public static void main(String[] args)
     {
-        Animation anim_window=new Animation("А почему лицо красное?");
+        Animation anim_window=new Animation("Lab5");
         anim_window.go();
         anim_window.addWindowListener(new WindowAdapter()
         {

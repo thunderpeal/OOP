@@ -1,7 +1,5 @@
 package lab3;
 
-import lab3.Furniture;
-
 class Table extends Furniture {
     private String type;
 
